@@ -15,3 +15,7 @@ The process of Sorting can be explained as a technique of rearranging the elemen
 
 ![](https://i.imgur.com/zfQ2AOf.png)
 
+## Insertion Sort 插入排序
+做法上是將原空間視為兩部份, 左邊是已排好元素, 右邊是待排元素, 每次從右邊取走一個元素, 到左邊找出應插入位置插入, 只需搬移時的一個暫存空間, 故空間複雜度是O(1) ,時間複雜度O(n2).
+
+![](https://i.imgur.com/4zhSFYe.png)
