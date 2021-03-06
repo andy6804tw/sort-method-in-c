@@ -19,3 +19,9 @@ The process of Sorting can be explained as a technique of rearranging the elemen
 做法上是將原空間視為兩部份, 左邊是已排好元素, 右邊是待排元素, 每次從右邊取走一個元素, 到左邊找出應插入位置插入, 只需搬移時的一個暫存空間, 故空間複雜度是O(1) ,時間複雜度O(n2).
 
 ![](https://i.imgur.com/4zhSFYe.png)
+
+## Selection Sort 選擇排序
+- 找出最大鍵值的元素調到最後面, 只需一個用來暫存目前最大鍵值的元素空間, 故空間複雜度是O(1),時間複雜度O(n2).
+
+![](https://i.imgur.com/NFJlLme.png)
+
