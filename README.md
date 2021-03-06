@@ -8,3 +8,10 @@ The process of Sorting can be explained as a technique of rearranging the elemen
 | Selection sort |     O(n^2)       |    O(n)        |     Unstable        |      O(1)            |   n小較好，部份排序好更好。   |      |
 | Insertion sort |     O(n^2)       |     O(n)       |      Stable       |        O(1)          |   大部份排序好比較好。   |      |
 | Quick sort     |     O(n^2)       |     ![](https://i.imgur.com/ysLLVz5.png)      |    Unstable         |       O(n)~O(log n)      |   在資料已排序好時會產生最差狀況。   |      |
+
+## Bubble Sort 氣泡排序
+- 兩兩比對交換, 皆在原空間處理, 故只需交換時的一個暫存空間, 因此空間複雜度是O(1) ,時間複雜度O(n2).
+- 相同鍵值時, 兩者並不會交換, 仍維持原次序, 故為穩定.
+
+![](https://i.imgur.com/zfQ2AOf.png)
+
