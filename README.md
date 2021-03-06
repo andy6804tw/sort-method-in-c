@@ -4,10 +4,10 @@ The process of Sorting can be explained as a technique of rearranging the elemen
 ## Types of Sorting in C
 | Method         | Worst-case | Best-case | Performance | Space complexity | Note | Code |
 |----------------|------------|-----------|-------------|------------------|------|------|
-| Bubble sort    |    O(n^2)   |     O(n)      |      Stable       |        O(1)          |   n小比較好。   |   ![](https://github.com/andy6804tw/sort-method-in-c/blob/main/Bubble%20sort.c)   |
-| Selection sort |     O(n^2)       |    O(n)        |     Unstable        |      O(1)            |   n小較好，部份排序好更好。   |   ![](https://github.com/andy6804tw/sort-method-in-c/blob/main/Selection%20sort.c)   |
-| Insertion sort |     O(n^2)       |     O(n)       |      Stable       |        O(1)          |   大部份排序好比較好。   |   ![](https://github.com/andy6804tw/sort-method-in-c/blob/main/Insertion%20sort.c)   |
-| Quick sort     |     O(n^2)       |     ![](https://i.imgur.com/ysLLVz5.png)      |    Unstable         |       O(n)~O(log n)      |   在資料已排序好時會產生最差狀況。   |   ![](https://github.com/andy6804tw/sort-method-in-c/blob/main/Quick%20sort.c)   |
+| Bubble sort    |    O(n^2)   |     O(n)      |      Stable       |        O(1)          |   n小比較好。   |   [](https://github.com/andy6804tw/sort-method-in-c/blob/main/Bubble%20sort.c)   |
+| Selection sort |     O(n^2)       |    O(n)        |     Unstable        |      O(1)            |   n小較好，部份排序好更好。   |   [](https://github.com/andy6804tw/sort-method-in-c/blob/main/Selection%20sort.c)   |
+| Insertion sort |     O(n^2)       |     O(n)       |      Stable       |        O(1)          |   大部份排序好比較好。   |   [](https://github.com/andy6804tw/sort-method-in-c/blob/main/Insertion%20sort.c)   |
+| Quick sort     |     O(n^2)       |     ![](https://i.imgur.com/ysLLVz5.png)      |    Unstable         |       O(n)~O(log n)      |   在資料已排序好時會產生最差狀況。   |   [](https://github.com/andy6804tw/sort-method-in-c/blob/main/Quick%20sort.c)   |
 
 ## Bubble Sort 氣泡排序
 - 兩兩比對交換, 皆在原空間處理, 故只需交換時的一個暫存空間, 因此空間複雜度是O(1) ,時間複雜度O(n2).
