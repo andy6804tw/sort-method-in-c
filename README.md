@@ -25,3 +25,7 @@ The process of Sorting can be explained as a technique of rearranging the elemen
 
 ![](https://i.imgur.com/NFJlLme.png)
 
+## Quick Sort 快速排序
+- 找一個元素, 將所有元素分成鍵值比它小與比它大的兩堆, 然後遞迴排好這兩堆,並且每次有個樞紐值(pivot)左右分堆. 這個分堆的動作, 形成O(n)的空間複雜度,時間複雜度O(nlog2n)
+
+![](https://i.imgur.com/CfcKIIk.png)
